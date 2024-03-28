@@ -16,6 +16,8 @@ body {
 	background-color: beige;
 }
 
+/* ----------------- MAIN --------------------  */
+
 main {
 	padding: 1%;
 
@@ -27,11 +29,11 @@ main {
 	font-family: Arial, Helvetica, sans-serif;
 	/* position: -webkit-sticky; 
 	position: sticky;
-	top: 0;	 */ 
+	top: 0;	 */
 	/* HACER ESTA SECCION STICKY */
 }
 
-.info_prod {
+.infoProd {
 	padding: 2%;
 }
 
@@ -48,16 +50,17 @@ main {
 	flex-direction: row;
 }
 
-#promedio{
+#promedio {
 	font-size: 600%;
 	margin: auto;
 }
 
-.resena{
+.resena {
 	display: flex;
 	justify-content: center;
 }
-.resena button{
+
+.resena button {
 	align-self: center;
 	background-color: #9dc08b;
 	border: none;
@@ -71,11 +74,35 @@ main {
 	cursor: pointer;
 }
 
-.Foto_producto img {
+.FotoProducto img {
 	height: 400px;
 	width: 800px;
 }
 
 hr {
-	border-top: 2px dashed ;
+	border-top: 2px dashed;
+	margin: auto;
+	width: 99%;
+}
+
+/*  ------------------ COMMENT ------------------  */
+section{
+	padding: 1%;
+}
+.comentarios{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#profileImg{
+	width: 80px;
+    height: 80px;
+	padding: 0.5%;
+
+}
+#comentInfo{
+	padding-top: 1%;
+	padding-left: 1%;
+}
+.checked {
+	color: orange;
   }
