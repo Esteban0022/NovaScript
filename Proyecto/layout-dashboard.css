@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9dc08b;
+    padding: 15px;
+}
+
+.lado {
+	
+}
+
+main {
+    
+    flex: 1;
+    
+    display: flex;
+}
+
+aside {
+	
+	width: 200px;
+}
+
+.page-content {
+	
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.title-container {
+	
+    display: flex;
+    margin: 10px;
+    
+}
+
+.table-container {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.title2-container {
+	
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+table {
+	
+    width: 100%;
+}
+    .profile {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .profile td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .profile tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .profile2 {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .profile2 td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .profile2 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+
+.sidebar_nav{
+    height: 100%;
+    width: 190px;
+    padding-top: 20px; /* aleja los botones de la parte alta */
+    left: 0;
+    background-color: #1d538a;
+    border-radius: 5px;
+    
+}
+
+.sidebar_nav a{
+    padding: 20px; /* Aleja los botones */
+    text-decoration: none; /* No lo subraya */
+    font-size:14px; /* tamaño de letra del sidebar */
+    color: black; /* el texto sea de colores */
+    display: block;/* los mantiene fijos verticalmente */
+    
+}
+
+.sidebar_nav a:hover{
+    font-weight: 500;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    
+}

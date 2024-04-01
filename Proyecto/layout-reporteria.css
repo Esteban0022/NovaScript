@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #405138;
+    padding: 20px;
+   
+}
+
+
+
+main {
+    
+    flex: 1;
+    display: flex;
+}
+
+aside {
+	
+	width: 188px;
+}
+
+.page-content {
+	
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dates-container {
+	
+    display: flex;
+    justify-content: right;
+}
+
+
+.title-container {
+	
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.title-buttons{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+.title-buttons2{
+   
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+
+}
+			
+
+.table-container {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+table {
+	
+    width: 100%;
+}
+
+.sidebar_nav{
+    height: 100%;
+    width: 190px;
+    padding-top: 20px; /* aleja los botones de la parte alta */
+    left: 0;
+    background-color: #1d538a;
+    border-radius: 5px;
+    
+}
+
+.sidebar_nav a{
+    padding: 20px; /* Aleja los botones */
+    text-decoration: none; /* No lo subraya */
+    font-size:14px; /* tamaño de letra del sidebar */
+    color: black; /* el texto sea de colores */
+    display: block;/* los mantiene fijos verticalmente */
+    
+}
+
+.sidebar_nav a:hover{
+    font-weight: 500;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
